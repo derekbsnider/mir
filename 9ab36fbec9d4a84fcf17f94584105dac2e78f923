@@ -1,0 +1,1 @@
+ADOPTED-FROM: upstream PR vnmakarov/mir#434 (cyanogilvie), fixes vnmakarov/mir#431; verbatim cherry-pick (untested on aarch64 hardware here)
