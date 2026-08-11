@@ -1,3 +1,32 @@
+# MADC MIR Downstream — Historical Repository
+
+**The MADC-specific MIR/c2mir downstream formerly maintained in this
+repository has moved into the MADC source tree:**
+
+    https://github.com/derekbsnider/madc — `third_party/mir`
+
+That directory is now the canonical maintained MADC version of MIR
+(imported 2026-08-11 as a Git subtree with full history preserved; this
+repository's final standalone state is tagged
+`madc-pre-subtree-migration`, the same commit as `v1.0-madc.0.76.0`).
+
+This repository is retained for:
+
+1. **historical reference** — the pre-migration downstream history and
+   the `v*-madc.*` release tags madc v0.76.0 and earlier shipped
+   against;
+2. **upstream PR transport** — the GitHub fork through which clean,
+   `vnmakarov/mir`-based branches are submitted as pull requests to
+   [vnmakarov/mir](https://github.com/vnmakarov/mir).
+
+The historical `master` / `develop` branches are **frozen** — no longer
+synchronized with MADC. New generic upstream fixes may appear here
+temporarily as dedicated `upstream-*` PR branches.
+
+---
+
+*The original upstream README follows.*
+
 <p>
 <a href="https://github.com/vnmakarov/mir/actions?query=workflow%3AAMD64%2DLinux%2DOSX%2DWindows%2Dtest"><img alt="GitHub MIR test status" src="https://github.com/vnmakarov/mir/workflows/AMD64%2DLinux%2DOSX%2DWindows%2Dtest/badge.svg"></a>
 <a href="https://github.com/vnmakarov/mir/actions?query=workflow%3Aapple%2Daarch64%2Dtest"><img alt="GitHub MIR test status on Apple Silicon" src="https://github.com/vnmakarov/mir/workflows/apple%2Daarch64%2Dtest/badge.svg"></a>
